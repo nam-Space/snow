@@ -167,11 +167,13 @@ function changeSlideBodyUser() {
 
 // Chạy slide body player (responsive)
 function changeSlideBodyPlayer() {
-    var checks = document.querySelectorAll('.check__body-player-class');
     var bodyContainPlayer = document.querySelector('.body__slider');
     var count = 2;
     setInterval(function () {
-        document.getElementById('check__body-player-' + count).checked = true;
+        var checkPlayer = document.getElementById('check__body-player-' + count)
+        if (checkPlayer) {
+            checkPlayer.checked = true;
+        }
         count++;
         if (bodyContainPlayer.offsetWidth >= 740 && bodyContainPlayer.offsetWidth <= 1023) {
             if (count >= 4) {
