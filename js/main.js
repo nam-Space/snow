@@ -412,59 +412,72 @@ function toggleBarLv2() {
 }
 
 function toggleLogin() {
-    var check = document.getElementById('check__register');
-    var modalContain = document.querySelector('.header__modal-member');
+    var btnPersonal = document.querySelector('.header__res-personal')
+
+    var modal = document.querySelector('.header__modal-res');
+    var modalBody = document.querySelector('.header__modal-member');
 
     var btnLogin = document.querySelector('.header__modal-header-login');
     var btnRegister = document.querySelector('.header__modal-header-register');
     var title = document.querySelector('.header__modal-body-title');
     var desc = document.querySelector('.header__modal-body-desc');
 
-    var inputEmail = document.querySelector('label[name="input__login-2"]');
-    var verifyPass = document.querySelector('label[name="input__login-4"]');
+    var formLogin = document.querySelector('.form-login')
+    var formRegister = document.querySelector('.form-register')
 
-    var rememberCheck = document.querySelector('.header__modal-checkbox');
-    var lostPass = document.querySelector('.header__modal-lost-pass');
-
-    var btnSignIn_Verify = document.querySelector('.header__modal-register');
-    var connectWith = document.querySelector('.header__modal-sign-with-end');
+    var btnSubmitLogin = document.querySelectorAll('.header__modal-login')
+    var btnSubmitRegister = document.querySelectorAll('.header__modal-register')
 
     var footer = document.querySelector('.header__modal-footer');
-    
-    modalContain.onclick = function (e) {
-        check.checked = true;
+
+    // Khi bật / tắt modal
+    btnPersonal.onclick = function() {
+        modal.classList.add('active-modal');
     }
 
+    modal.onclick = function() {
+        modal.classList.remove('active-modal')
+    }
+
+    modalBody.onclick = function(e) {
+        e.stopPropagation()
+    }
+
+    // Khi bấm các nút login, register ở phía trên
     btnLogin.onclick = function () {
         btnLogin.classList.remove('bold--primary');
         btnRegister.classList.add('bold--primary');
+
+        formRegister.classList.remove('form-active');
+        formLogin.classList.add('form-active')
+
         title.textContent = 'Sign In Here!';
         desc.textContent = 'Log into your account in just a few simple steps.';
-        inputEmail.style.display = 'none';
-        verifyPass.style.display = 'none';
-        verifyPass.style.marginBottom = '8px';
-        rememberCheck.style.display = 'flex';
-        lostPass.style.display = 'block';
-        btnSignIn_Verify.textContent = 'SIGN IN';
-        connectWith.style.display = 'block';
-        footer.style.display = 'flex';
+        
+        footer.classList.remove('hide-auth-connect');
     }
 
     btnRegister.onclick = function () {
         btnLogin.classList.add('bold--primary');
         btnRegister.classList.remove('bold--primary');
+
+        formLogin.classList.remove('form-active');
+        formRegister.classList.add('form-active')
+
         title.textContent = 'Register Now!';
         desc.textContent = 'Join the SetSail community today & set up a free account.';
-        inputEmail.style.display = 'flex';
-        verifyPass.style.display = 'flex';
-        verifyPass.style.marginBottom = '30px';
-        rememberCheck.style.display = 'none';
-        lostPass.style.display = 'none';
-        btnSignIn_Verify.textContent = 'REGISTER';
-        connectWith.style.display = 'none';
-        footer.style.display = 'none';
+
+        footer.classList.add('hide-auth-connect');
     }
-    
+
+    // Ngăn chặn hành vi mặc định của thẻ submit (button)
+    btnSubmitLogin.onclick = function(e) {
+        e.preventDefault()
+    }
+
+    btnSubmitRegister.onclick = function(e) {
+        e.preventDefault()
+    }
 }
 
 function start() {

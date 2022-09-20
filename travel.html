@@ -189,61 +189,76 @@
                 </a>
             </div>
 
-            <label for="check__register" class="header__res-personal">
+            <div class="header__res-personal">
                 <i class="header__res-personal-icon fa-solid fa-circle-user"></i>
-                <input type="checkbox" name="check__for-register" id="check__register">
-                <label for="check__register" class="header__modal-res">
-                    <div class="header__modal-member">
-                        <div class="header__modal-header">
-                            <button class="header__modal-header-login">LOGIN</button>
-                            <button class="header__modal-header-register bold--primary">REGISTER</button>
-                        </div>
-                        <div class="header__modal-body">
-                            <form method="post">
-                                <h2 class="header__modal-body-title">Sign In Here!</h2>
-                                <p class="header__modal-body-desc">Log into your account in just a few simple steps.</p>
-                                <label for="input__login-1" class="header__modal-body-input">
-                                    <i class="header__modal-body-input-icon fa-solid fa-user"></i>
-                                    <input required type="text" id="input__login-1" class="header__modal-body-input-input" placeholder="User Name"></input>
-                                </label>
-                                <label name="input__login-2" for="input__login-2" class="header__modal-body-input">
-                                    <i class="header__modal-body-input-icon fa-solid fa-envelope"></i>
-                                    <input required type="email" id="input__login-2" class="header__modal-body-input-input" placeholder="Email"></input>
-                                </label>
-                                <label for="input__login-3" class="header__modal-body-input">
-                                    <i class="header__modal-body-input-icon fa-solid fa-lock"></i>
-                                    <input required type="password" id="input__login-3" class="header__modal-body-input-input" placeholder="Password"></input>
-                                </label>
-                                <label name="input__login-4" for="input__login-4" class="header__modal-body-input">
-                                    <i class="header__modal-body-input-icon fa-solid fa-lock"></i>
-                                    <input required type="password" id="input__login-4" class="header__modal-body-input-input" placeholder="Repeat Password"></input>
-                                </label>
-
-                                <div class="header__modal-checkbox">
-                                    <input type="checkbox" name="" id="check__login">
-                                    <label for="check__login" class="header__modal-checkbox-remember">Remember me</label>
-                                </div>
-                                
-                                <a href="" class="header__modal-lost-pass">Lost Your password?</a>
-
-                                <button class="header__modal-register">SIGN IN</button>
-
-                                <p class="header__modal-sign-with-end">Sign in with Facebook or Google+</p>
-                            </form>
-                        </div>
-                        <div class="header__modal-footer">
-                            <button class="header__modal-footer-web for-facebook">
-                                <i class="header__modal-footer-web-icon fa-brands fa-facebook"></i>
-                                <span class="header__modal-footer-web-name">Facebook</span>
-                            </button>
-                            <button class="header__modal-footer-web for-google">
-                                <i class="header__modal-footer-web-icon fa-brands fa-google"></i>
-                                <span class="header__modal-footer-web-name">Google++</span>
-                            </button>
-                        </div>
+            </div>
+            <div class="header__modal-res">
+                <div class="header__modal-member">
+                    <div class="header__modal-header">
+                        <button class="header__modal-header-login">LOGIN</button>
+                        <button class="header__modal-header-register bold--primary">REGISTER</button>
                     </div>
-                </label>
-            </label>
+                    <div class="header__modal-body">
+                        <h2 class="header__modal-body-title">Sign In Here!</h2>
+                        <p class="header__modal-body-desc">Log into your account in just a few simple steps.</p>
+                        <!-- Form Login -->
+                        <form class="form-login form-active" method="post" action="">
+                            <label for="input__login-1" class="header__modal-body-input">
+                                <i class="header__modal-body-input-icon fa-solid fa-user"></i>
+                                <input required type="text" id="input__login-1" class="header__modal-body-input-input" placeholder="User Name"></input>
+                            </label>
+                            <label for="input__login-3" class="header__modal-body-input">
+                                <i class="header__modal-body-input-icon fa-solid fa-lock"></i>
+                                <input required type="password" id="input__login-3" class="header__modal-body-input-input" placeholder="Password"></input>
+                            </label>
+
+                            <div class="header__modal-checkbox">
+                                <input type="checkbox" name="" id="check__login">
+                                <label for="check__login" class="header__modal-checkbox-remember">Remember me</label>
+                            </div>
+                            
+                            <a href="" class="header__modal-lost-pass">Lost Your password?</a>
+
+                            <input type="submit" class="header__modal-login" value="LOGIN"></input>
+
+                            <p class="header__modal-sign-with-end">Sign in with Facebook or Google+</p>
+                        </form>
+                        <!--Form Register-->
+                        <form class="form-register" method="post" action="">
+                            <label for="input__register-1" class="header__modal-body-input">
+                                <i class="header__modal-body-input-icon fa-solid fa-user"></i>
+                                <input required type="text" id="input__register-1" class="header__modal-body-input-input" placeholder="User Name"></input>
+                            </label>
+                            <label name="input__register-2" for="input__register-2" class="header__modal-body-input">
+                                <i class="header__modal-body-input-icon fa-solid fa-envelope"></i>
+                                <input required type="email" id="input__register-2" class="header__modal-body-input-input" placeholder="Email"></input>
+                            </label>
+                            <label for="input__register-3" class="header__modal-body-input">
+                                <i class="header__modal-body-input-icon fa-solid fa-lock"></i>
+                                <input required type="password" id="input__register-3" class="header__modal-body-input-input" placeholder="Password"></input>
+                            </label>
+                            <label name="input__register-4" for="input__register-4" class="header__modal-body-input">
+                                <i class="header__modal-body-input-icon fa-solid fa-lock"></i>
+                                <input required type="password" id="input__register-4" class="header__modal-body-input-input" placeholder="Repeat Password"></input>
+                            </label>
+
+                            <input type="submit" class="header__modal-register" value="REGISTER"></input>
+                        </form>
+                    </div>
+
+                    <!--Footer auth-->
+                    <div class="header__modal-footer">
+                        <button class="header__modal-footer-web for-facebook">
+                            <i class="header__modal-footer-web-icon fa-brands fa-facebook"></i>
+                            <span class="header__modal-footer-web-name">Facebook</span>
+                        </button>
+                        <button class="header__modal-footer-web for-google">
+                            <i class="header__modal-footer-web-icon fa-brands fa-google"></i>
+                            <span class="header__modal-footer-web-name">Google++</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="header__logo">
             <a href="" class="header__logo-link">

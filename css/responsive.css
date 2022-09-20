@@ -186,14 +186,6 @@
     }
 
     /* Register */
-    #check__register {
-        display: none;
-    }
-
-    #check__register:checked ~ .header__modal-res{
-        display: flex;
-    }
-
     .header__modal-res{
         position: fixed;
         top: 0;
@@ -202,6 +194,10 @@
         right: 0;
         background-color: rgba(255, 255, 255, 0.8);
         display: none;
+    }
+
+    .active-modal{
+        display: flex;
     }
     
     .header__modal-member{
@@ -243,6 +239,15 @@
 
     .header__modal-body-title, .header__modal-body-desc{
         color: var(--white-color);
+    }
+
+    /* Form validation */
+    .form-login, .form-register{
+        display: none;
+    }
+
+    .form-active{
+        display: block;
     }
 
     .header__modal-body-input{
@@ -288,7 +293,7 @@
         margin-bottom: 20px;
     }
 
-    .header__modal-register{
+    .header__modal-login, .header__modal-register{
         height: 50px;
         background-color: var(--white-color);
         outline: none;
@@ -298,6 +303,10 @@
         letter-spacing: 0.5px;
     }
 
+    .header__modal-register{
+        margin-top: 22px;
+    }
+
     .header__modal-sign-with-end{
         color: var(--white-color);
         margin: 24px 0 -16px;
@@ -305,6 +314,10 @@
 
     .header__modal-footer{
         display: flex;
+    }
+
+    .hide-auth-connect{
+        display: none;
     }
 
     .header__modal-footer-web{
