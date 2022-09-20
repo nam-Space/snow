@@ -59,11 +59,11 @@ function changeSlide() {
     function changeForSlide() {
         if (compare) {
             slide.style.animation = 'slideUp linear 6s forwards, slideAppear linear 0.3s';
-            slide.style.backgroundImage = 'url(https://images.pexels.com/photos/848618/pexels-photo-848618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)';
+            slide.style.backgroundImage = 'url(https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/skiing-slider-img-1.jpg)'; 
             slideText.style.animation = 'slideTextUp ease-in-out 0.8s forwards';
         } else {
             slide.style.animation = 'slideUp2 linear 6s forwards, slideAppear2 linear 0.3s';
-            slide.style.backgroundImage = 'url(https://images.pexels.com/photos/352093/pexels-photo-352093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)';
+            slide.style.backgroundImage = 'url(https://images.pexels.com/photos/848618/pexels-photo-848618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940)';
             slideText.style.animation = 'slideTextUp2 ease-in-out 0.8s forwards';
         }
     }
