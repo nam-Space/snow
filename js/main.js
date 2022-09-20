@@ -38,15 +38,21 @@ function changeSlide() {
     var btnEngles = document.querySelectorAll('.js-angle-btn');
     var compare = true;
     
-    setInterval(function () {
+    var id = setInterval(function () {
         compare = !compare;
         changeForSlide();
     } , 6000);
 
+
     Array.from(btnEngles).forEach(function (btnEngle) {
         btnEngle.addEventListener('click', function () {
+            clearInterval(id)
             compare = !compare;
             changeForSlide();
+            id = setInterval(function () {
+                compare = !compare;
+                changeForSlide();
+            } , 6000);
         })
     });
 
