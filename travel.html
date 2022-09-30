@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Winter Holidays</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="shortcut icon" href="https://lh3.googleusercontent.com/HmmIcdzvwJgDz-CEH9-vAYK1l8FO6acEPkzZspBo8m9Bo2ygqYF6pW2TyIatCq0gU70=h200" type="image/x-icon">
     <link rel="stylesheet" href="css/all.min.css">
@@ -16,173 +17,9 @@
 <body>
     <div class="header">
         <div class="header__res-container">
-            <div class="header__res-bar">
+            <label for="modal-res-header"  class="header__res-bar">
                 <i class="header__res-bar-icon fa-solid fa-bars"></i>
-                <input type="checkbox" id="modal-res-header">
-                <label for="modal-res-header" class="overlay-header-res"></label>
-                <ul class="header__res-list">
-                    <li class="header__res-list-item" number="1">
-                        <span class="header__rest-item-text">Home</span>
-                        <i class="header__rest-item-icon fa-solid fa-angle-right"></i>
-                        <i class="header__rest-item-icon-down fa-solid fa-angle-down"></i>
-                        <ul class="header__res-list-lv2">
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Travel Agency</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Winter Holidays</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Exotic Destinations</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Summer Holidays</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">City Tours</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">New Year Trips</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Destinations Carousel</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Wine Tours</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Wine Tours</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Vacation Showcase</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Landing</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="header__res-list-item" number="2">
-                        <span class="header__rest-item-text">Pages</span>
-                        <i class="header__rest-item-icon fa-solid fa-angle-right"></i>
-                        <i class="header__rest-item-icon-down fa-solid fa-angle-down"></i>
-                        <ul class="header__res-list-lv2">
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">About Us</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">What We Offer</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Our Team</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Get In Touch</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Contact Us</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">FAQ Page</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Coming Soon</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Error Page</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="header__res-list-item" number="3">
-                        <span class="header__rest-item-text">Destinations</span>
-                        <i class="header__rest-item-icon fa-solid fa-angle-right"></i>
-                        <i class="header__rest-item-icon-down fa-solid fa-angle-down"></i>
-                        <ul class="header__res-list-lv2">
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Destination List</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Destination Slider</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Destination Item</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="header__res-list-item" number="4">
-                        <span class="header__rest-item-text">Tours</span>
-                        <i class="header__rest-item-icon fa-solid fa-angle-right"></i>
-                        <i class="header__rest-item-icon-down fa-solid fa-angle-down"></i>
-                        <ul class="header__res-list-lv2">
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Standard List</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Gallery List</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Split List</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Tour Item</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="header__res-list-item" number="5">
-                        <span class="header__rest-item-text">Blog</span>
-                        <i class="header__rest-item-icon fa-solid fa-angle-right"></i>
-                        <i class="header__rest-item-icon-down fa-solid fa-angle-down"></i>
-                        <ul class="header__res-list-lv2">
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Blog Masonry</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Blog Standard</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Post Types</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="header__res-list-item" number="6">
-                        <span class="header__rest-item-text">Shop</span>
-                        <i class="header__rest-item-icon fa-solid fa-angle-right"></i>
-                        <i class="header__rest-item-icon-down fa-solid fa-angle-down"></i>
-                        <ul class="header__res-list-lv2">
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Product List</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Product Single</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Shop Layouts</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Shop Pages</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="header__res-list-item" number="7">
-                        <span class="header__rest-item-text">Elements</span>
-                        <i class="header__rest-item-icon fa-solid fa-angle-right"></i>
-                        <i class="header__rest-item-icon-down fa-solid fa-angle-down"></i>
-                        <ul class="header__res-list-lv2">
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Featured</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Presentation</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Classic</a>
-                            </li>
-                            <li class="header__res-list-lv2-item">
-                                <a href="" class="header__res-list-lv2-item-link">Typography</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
+            </label>
             <div class="header__logo-res">
                 <a href="" class="header__logo-link-res">
                     <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/logo-mobile-img.png" alt="" class="header__logo-img">
@@ -265,236 +102,502 @@
                 <img src="img/logo-header.png" alt="" class="header__logo-img">
             </a>
         </div>
-        <ul class="header__list">
-            <li class="header__list-item">
-                <span class="header__list-link">Home</span>
-                <ul class="header__list-lv2">
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Travel Agency</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Winter Holidays</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Exotic Destinations</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Summer Holidays</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">City Tours</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">New Year Trips</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Destinations Carousel</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Wine Tours</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Vacation Showcase</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Landing</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="header__list-item">
-                <span class="header__list-link">Pages</span>
-                <ul class="header__list-lv2">
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">About Us</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">What We Order</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Our Team</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Get In Touch</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">City Tours</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Contact Us</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Destinations Carousel</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">FAQ Page</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Comming Soon</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Error Page</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="header__list-item">
-                <span class="header__list-link">Destinations</span>
-                <ul class="header__list-lv2">
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Destination List</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Destination Slider</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Destination Item</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="header__list-item">
-                <span class="header__list-link">Tours</span>
-                <ul class="header__list-lv2">
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Standard List</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Gallery List</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Split List</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Tour Item</a>
-                    </li>
-                </ul>
-            </li>
-            <li class="header__list-item">
-                <span class="header__list-link">Blog</span>
-                <ul class="header__list-lv2">
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Blog Masonry</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Blog Standard</a>
-                        <i class="header__list-item-lv2-icon fa-solid fa-angle-right"></i>
-                        <ul class="header__list-lv3">
-                            <li class="header__list-item-lv3">
-                                <a href="" class="header__list-item-link-lv3">Right Sidebar</a>
+        <input type="checkbox" id="modal-res-header">
+        <div class="header__nav-list">
+            <ul>
+                <li lever="li-lv0" class="header__nav-link" style="--i: 0.4s">
+                    <a href="#">
+                        <span>Home</span>
+                        <i class="arrow-first icon-arrow-right fa-solid fa-angle-right"></i>
+                    </a>
+                    <div class="header__dropdown">
+                        <ul>
+                            <li lever="li-lv1"class="dropdown-link">
+                                <a href="#">
+                                    <span>Travel Agency</span>
+                                </a>
                             </li>
-                            <li class="header__list-item-lv3">
-                                <a href="" class="header__list-item-link-lv3">Left Sidebar</a>
+                            <li lever="li-lv1"class="dropdown-link">
+                                <a href="#">
+                                    <span>Winter Holidays</span>
+                                </a>
                             </li>
-                            <li class="header__list-item-lv3">
-                                <a href="" class="header__list-item-link-lv3">Without Sidebar</a>
+                            <li lever="li-lv1"class="dropdown-link">
+                                <a href="#">
+                                    <span>Exotic Destinations</span>
+                                </a>
+                            </li>
+                            <li lever="li-lv1"class="dropdown-link">
+                                <a>
+                                    <span> Holidays</span>
+                                </a>
+                            </li>
+                            <li lever="li-lv1"class="dropdown-link">
+                                <a href="#">
+                                    <span>City Tours</span>
+                                </a>
+                            </li>
+                            <li lever="li-lv1"class="dropdown-link">
+                                <a href="#">
+                                    <span>New Year Trips</span>
+                                </a>
+                            </li>
+                            <li lever="li-lv1"class="dropdown-link">
+                                <a href="#">
+                                    <span>Destinations Carousel</span>
+                                </a>
+                            </li>
+                            <li lever="li-lv1"class="dropdown-link">
+                                <a href="#">
+                                    <span>Wine Tours</span>
+                                </a>
+                            </li>
+                            <li lever="li-lv1"class="dropdown-link">
+                                <a href="#">
+                                    <span>Vacation Showcase</span>
+                                </a>
+                            </li>
+                            <li lever="li-lv1"class="dropdown-link">
+                                <a href="#">
+                                    <span>Landing</span>
+                                </a>
                             </li>
                         </ul>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Post types</a>
-                        <i class="header__list-item-lv2-icon fa-solid fa-angle-right"></i>
-                        <ul class="header__list-lv3">
-                            <li class="header__list-item-lv3">
-                                <a href="" class="header__list-item-link-lv3">Standard</a>
+                    </div>
+                </li>
+                <li lever="li-lv0" class="header__nav-link" style="--i: 0.8s">
+                    <a href="#">
+                        <span>Destinations</span>
+                        <i class="arrow-first icon-arrow-right fa-solid fa-angle-right"></i>
+                    </a>
+                    <div class="header__dropdown">
+                        <ul>
+                            <li lever="li-lv1" class="dropdown-link">
+                                <a href="#">
+                                    <span>Destination List</span>
+                                </a>
                             </li>
-                            <li class="header__list-item-lv3">
-                                <a href="" class="header__list-item-link-lv3">Gallery</a>
+                            <li lever="li-lv1" class="dropdown-link">
+                                <a href="#">
+                                    <span>Destination Slider</span>
+                                </a>
                             </li>
-                            <li class="header__list-item-lv3">
-                                <a href="" class="header__list-item-link-lv3">Link</a>
-                            </li>
-                            <li class="header__list-item-lv3">
-                                <a href="" class="header__list-item-link-lv3">Quote</a>
-                            </li>
-                            <li class="header__list-item-lv3">
-                                <a href="" class="header__list-item-link-lv3">Video</a>
-                            </li>
-                            <li class="header__list-item-lv3">
-                                <a href="" class="header__list-item-link-lv3">Audio</a>
-                            </li>
-                            <li class="header__list-item-lv3">
-                                <a href="" class="header__list-item-link-lv3">No Sidebar</a>
+                            <li lever="li-lv1" class="dropdown-link">
+                                <a href="#">
+                                    <span>Destination Item</span>
+                                </a>
                             </li>
                         </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="header__list-item">
-                <span class="header__list-link">Shop</span>
-                <ul class="header__list-lv2">
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Product List</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Product Single</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Shop Layouts</a>
-                        <i class="header__list-item-lv2-icon fa-solid fa-angle-right"></i>
-                        <ul class="header__list-lv3">
-                            <li class="header__list-item-lv3">
-                                <a href="" class="header__list-item-link-lv3">Three Columns</a>
+                    </div>
+                </li>
+                <li lever="li-lv0" class="header__nav-link" style="--i: 1s">
+                    <a href="#">
+                        <span>Tours</span>
+                        <i class="arrow-first icon-arrow-right fa-solid fa-angle-right"></i>
+                    </a>
+                    <div class="header__dropdown">
+                        <ul>
+                            <li lever="li-lv1" class="dropdown-link">
+                                <a href="#">
+                                    <span>Standard List</span>
+                                </a>
                             </li>
-                            <li class="header__list-item-lv3">
-                                <a href="" class="header__list-item-link-lv3">Four Columns</a>
+                            <li lever="li-lv1" class="dropdown-link">
+                                <a href="#">
+                                    <span>Gallery List</span>
+                                </a>
                             </li>
-                            <li class="header__list-item-lv3">
-                                <a href="" class="header__list-item-link-lv3">Full Width</a>
+                            <li lever="li-lv1" class="dropdown-link">
+                                <a href="#">
+                                    <span>Split List</span>
+                                </a>
                             </li>
-                        </ul>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Shop Pages</a>
-                        <i class="header__list-item-lv2-icon fa-solid fa-angle-right"></i>
-                        <ul class="header__list-lv3">
-                            <li class="header__list-item-lv3">
-                                <a href="" class="header__list-item-link-lv3">My Account</a>
-                            </li>
-                            <li class="header__list-item-lv3">
-                                <a href="" class="header__list-item-link-lv3">Cart</a>
-                            </li>
-                            <li class="header__list-item-lv3">
-                                <a href="" class="header__list-item-link-lv3">Checkout</a>
+                            <li lever="li-lv1" class="dropdown-link">
+                                <a href="#">
+                                    <span>Tour Item</span>
+                                </a>
                             </li>
                         </ul>
-                    </li>
-                </ul>
-            </li>
-            <li class="header__list-item">
-                <span class="header__list-link">Element</span>
-                <ul class="header__list-lv2">
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Travel Agency</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Winter Holidays</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Exotic Destinations</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Summer Holidays</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">City Tours</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">New Year Trips</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Destinations Carousel</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Wine Tours</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Vacation Showcase</a>
-                    </li>
-                    <li class="header__list-item-lv2">
-                        <a href="" class="header__item-link-lv2">Landing</a>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-        
+                    </div>
+                </li>
+                <li lever="li-lv0" class="header__nav-link" style="--i: 1.2s">
+                    <a href="#">
+                        <span>Blog</span>
+                        <i class="arrow-first icon-arrow-right fa-solid fa-angle-right"></i>
+                    </a>
+                    <div class="header__dropdown">
+                        <ul>
+                            <li lever="li-lv1" class="dropdown-link">
+                                <a href="#">
+                                    <span>Blog Masonry</span>
+                                </a>
+                            </li>
+                            <li lever="li-lv1" class="dropdown-link">
+                                <a href="#">
+                                    <span>Blog Standard</span>
+                                    <i class="nav-icon icon-arrow-right fa-solid fa-angle-right"></i>
+                                </a>
+                                <div class="header__dropdown next_dropdown">
+                                    <ul>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Right Sidebar</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Left Sidebar</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Without Sidebar</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li lever="li-lv1" class="dropdown-link">
+                                <a href="#">
+                                    <span>Post types</span>
+                                    <i class="nav-icon icon-arrow-right fa-solid fa-angle-right"></i>
+                                </a>
+                                <div class="header__dropdown next_dropdown">
+                                    <ul>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Standard</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Gallery</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Link</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Quote</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Video</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Audio</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>No Sidebar</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li lever="li-lv0" class="header__nav-link" style="--i: 1.4s">
+                    <a href="#">
+                        <span>Shop</span>
+                        <i class="arrow-first icon-arrow-right fa-solid fa-angle-right"></i>
+                    </a>
+                    <div class="header__dropdown">
+                        <ul>
+                            <li lever="li-lv1" class="dropdown-link">
+                                <a href="#">
+                                    <span>Product List</span>
+                                </a>
+                            </li>
+                            <li lever="li-lv1" class="dropdown-link">
+                                <a href="#">
+                                    <span>Product Single</span>
+                                </a>
+                            </li>
+                            <li lever="li-lv1" class="dropdown-link">
+                                <a href="#">
+                                    <span>Shop Layouts</span>
+                                    <i class="nav-icon icon-arrow-right fa-solid fa-angle-right"></i>
+                                </a>
+                                <div class="header__dropdown next_dropdown">
+                                    <ul>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Three Columns</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Four Columns</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Full Width</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li lever="li-lv1" class="dropdown-link">
+                                <a href="#">
+                                    <span>Shop Pages</span>
+                                    <i class="nav-icon icon-arrow-right fa-solid fa-angle-right"></i>
+                                </a>
+                                <div class="header__dropdown next_dropdown">
+                                    <ul>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>My Account</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Cart</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Checkout</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li lever="li-lv0" class="header__nav-link" style="--i: 1.6s">
+                    <a href="#">
+                        <span>Elements</span>
+                        <i class="arrow-first icon-arrow-right fa-solid fa-angle-right"></i>
+                    </a>
+                    <div class="header__dropdown">
+                        <ul>
+                            <li lever="li-lv1" class="dropdown-link l-3 m-12">
+                                <a href="#">
+                                    <span>FEATURED</span>
+                                    <i class="nav-icon icon-arrow-right fa-solid fa-angle-right"></i>
+                                </a>
+                                <div class="header__dropdown next_dropdown">
+                                    <ul>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Tour List</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Tour Carousel</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Tours Filter</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Destination With Tours</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Destination List</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Destination Fullscreen Slider</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Fullscreen Sections</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Reviews Carousel</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li lever="li-lv1" class="dropdown-link l-3 m-12">
+                                <a href="#">
+                                    <span>PRESENTATION</span>
+                                    <i class="nav-icon icon-arrow-right fa-solid fa-angle-right"></i>
+                                </a>
+                                <div class="header__dropdown next_dropdown">
+                                    <ul>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Team</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Blog List</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Shop List</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Testimonials</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Banner</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Clients</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Parallax Section</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Video Button</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li lever="li-lv1" class="dropdown-link l-3 m-12">
+                                <a href="#">
+                                    <span>CLASSIC</span>
+                                    <i class="nav-icon icon-arrow-right fa-solid fa-angle-right"></i>
+                                </a>
+                                <div class="header__dropdown next_dropdown">
+                                    <ul>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Accordions</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Tabs</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Buttons</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Google Maps</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Contact Form</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Progress Bar</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Countdown</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Counters</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Call To Action</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li lever="li-lv1" class="dropdown-link l-3 m-12">
+                                <a href="#">
+                                    <span>TYPOGRAPHY</span>
+                                    <i class="nav-icon icon-arrow-right fa-solid fa-angle-right"></i>
+                                </a>
+                                <div class="header__dropdown next_dropdown">
+                                    <ul>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Headings</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Columns</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Section Title</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Blockquote</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Dropcaps</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Highlights</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Icon with text</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Separators</span>
+                                            </a>
+                                        </li>
+                                        <li lever="li-lv2" class="dropdown-link">
+                                            <a href="#">
+                                                <span>Custom Font</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
         <div class="header__icon">
             <a href="" class="header-icon__button">
                 <i class="header__icon-font fa-solid fa-cart-plus"></i>
@@ -538,6 +641,13 @@
                     <p class="header__bar-blanket-guide-desc">
                         Lorem ipsum dolor sit amet, consectetuer adipis cing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis theme natoque
                     </p>
+                    <h1 class="header__bar-blanket-guide-find">Find Your Destination</h1>
+                    <div class="header__bar-blanket-guide-tool">
+                        <input type="text" placeholder="Search..." class="header__bar-blanket-guide-tool-search">
+                        <div class="header__bar-blanket-guide-tool-glass">
+                            <i class="header__bar-blanket-guide-tool-glass-icon fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
                     <h1 class="header__bar-blanket-guide-invite">Follow Me</h1>
                     <div class="header__bar-blanket-guide-socials">
                         <a href="" class="header__bar-blanket-guide-social">
@@ -592,320 +702,291 @@
                 <i class="slider-angle-icon fa-solid fa-angle-left"></i>
             </div>
             <div class="slider-angle-right js-angle-btn">
-                <i class="slider-angle-icon fa-solid fa-angle-right"></i>
+                <i class="slider-angle-icon icon-arrow-right fa-solid fa-angle-right"></i>
             </div>
         </div>
     </div>
 
-    <div class="place__winter row">
-        <input type="radio" checked name="radio-winter-btn" id="check__winter-1" class="check__winter">
-        <input type="radio" name="radio-winter-btn" id="check__winter-2" class="check__winter">
-        <input type="radio" name="radio-winter-btn" id="check__winter-3" class="check__winter">
-        <input type="radio" name="radio-winter-btn" id="check__winter-4" class="check__winter">
-        <input type="radio" name="radio-winter-btn" id="check__winter-5" class="check__winter">
-        <input type="radio" name="radio-winter-btn" id="check__winter-6" class="check__winter">
-        <input type="radio" name="radio-winter-btn" id="check__winter-7" class="check__winter">
-        <input type="radio" name="radio-winter-btn" id="check__winter-8" class="check__winter">
-
-        <div class="place__winter-col col-five m-6 s-12 pd-20">
-            <div class="pic__sce">
-                <a href="" class="pic__link">
-                    <img src="img/pic1.jpg" alt="" class="pic">
-                </a>
-                <div class="cal__people-ski">
-                    <div class="cal">
-                        <i class="mt-8 fa-solid fa-calendar"></i>
-                        <p class="p-not-mt cal-num">1</p>
+    <div class="place__winter">
+        <div class="swiper__season swiper">
+            <div class="swiper__season-container">
+                <div class="swiper__season-wrapper swiper-wrapper">
+                    <div class="place__winter-destination swiper-slide">
+                        <div class="pic__sce">
+                            <a href="" class="pic__link">
+                                <img src="img/pic1.jpg" alt="" class="pic">
+                            </a>
+                            <div class="cal__people-ski">
+                                <div class="cal">
+                                    <i class="mt-8 fa-solid fa-calendar"></i>
+                                    <p class="p-not-mt cal-num">1</p>
+                                </div>
+                                <div class="people">
+                                    <i class="mt-8 fa-solid fa-user"></i>
+                                    <p class="p-not-mt people-num">13+</p>
+                                </div>
+                                <a href="" class="ski">
+                                    <i class="mt-8 fa-solid fa-location-dot"></i>
+                                    <p class="p-not-mt ski-text">Skiing</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="place__winter-text">
+                            <a class="place__winter-heading-link" href="">
+                                <h1 class="place__winter-heading">Active Winter</h1>
+                            </a>
+                            <p class="place__winter-desc p-not-mt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <div class="place__winter-rate">
+                                <p class="place__winter-rate-money p-not-mt">$3600</p>
+                                <div class="place__winter-rate-star">
+                                    <i class="fa-solid fa-star"></i>7.3
+                                </div>
+                                <div class="place__winter-comment">Superb</div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="people">
-                        <i class="mt-8 fa-solid fa-user"></i>
-                        <p class="p-not-mt people-num">13+</p>
+                    <div class="place__winter-destination swiper-slide">
+                        <div class="pic__sce">
+                            <a href="" class="pic__link">
+                                <img src="img/pic7.jpg" alt="" class="pic">
+                            </a>
+                            <div class="cal__people-ski">
+                                <div class="cal">
+                                    <i class="mt-8 fa-solid fa-calendar"></i>
+                                    <p class="p-not-mt cal-num">1</p>
+                                </div>
+                                <div class="people">
+                                    <i class="mt-8 fa-solid fa-user"></i>
+                                    <p class="p-not-mt people-num">13+</p>
+                                </div>
+                                <a href="" class="ski">
+                                    <i class="mt-8 fa-solid fa-location-dot"></i>
+                                    <p class="p-not-mt ski-text">Skiing</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="place__winter-text">
+                            <a class="place__winter-heading-link" href="">
+                                <h1 class="place__winter-heading">Seoul Winter</h1>
+                            </a>
+                            <p class="place__winter-desc p-not-mt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <div class="place__winter-rate">
+                                <p class="place__winter-rate-money p-not-mt">$3600</p>
+                                <div class="place__winter-rate-star">
+                                    <i class="fa-solid fa-star"></i>7.3
+                                </div>
+                                <div class="place__winter-comment">Superb</div>
+                            </div>
+                        </div>
                     </div>
-                    <a href="" class="ski">
-                        <i class="mt-8 fa-solid fa-location-dot"></i>
-                        <p class="p-not-mt ski-text">Skiing</p>
-                    </a>
+                    <div class="place__winter-destination swiper-slide">
+                        <div class="pic__sce">
+                            <a href="" class="pic__link">
+                                <img src="img/pic8.jpg" alt="" class="pic">
+                            </a>
+                            <div class="cal__people-ski">
+                                <div class="cal">
+                                    <i class="mt-8 fa-solid fa-calendar"></i>
+                                    <p class="p-not-mt cal-num">1</p>
+                                </div>
+                                <div class="people">
+                                    <i class="mt-8 fa-solid fa-user"></i>
+                                    <p class="p-not-mt people-num">13+</p>
+                                </div>
+                                <a href="" class="ski">
+                                    <i class="mt-8 fa-solid fa-location-dot"></i>
+                                    <p class="p-not-mt ski-text">Skiing</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="place__winter-text">
+                            <a class="place__winter-heading-link" href="">
+                                <h1 class="place__winter-heading">Tokyo Scene</h1>
+                            </a>
+                            <p class="place__winter-desc p-not-mt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <div class="place__winter-rate">
+                                <p class="place__winter-rate-money p-not-mt">$3600</p>
+                                <div class="place__winter-rate-star">
+                                    <i class="fa-solid fa-star"></i>7.3
+                                </div>
+                                <div class="place__winter-comment">Superb</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="place__winter-destination swiper-slide">
+                        <div class="pic__sce">
+                            <a href="" class="pic__link">
+                                <img src="img/pic6.jpg" alt="" class="pic">
+                            </a>
+                            <div class="cal__people-ski">
+                                <div class="cal">
+                                    <i class="mt-8 fa-solid fa-calendar"></i>
+                                    <p class="p-not-mt cal-num">1</p>
+                                </div>
+                                <div class="people">
+                                    <i class="mt-8 fa-solid fa-user"></i>
+                                    <p class="p-not-mt people-num">13+</p>
+                                </div>
+                                <a href="" class="ski">
+                                    <i class="mt-8 fa-solid fa-location-dot"></i>
+                                    <p class="p-not-mt ski-text">Skiing</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="place__winter-text">
+                            <a class="place__winter-heading-link" href="">
+                                <h1 class="place__winter-heading">Snow Surfing</h1>
+                            </a>
+                            <p class="place__winter-desc p-not-mt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <div class="place__winter-rate">
+                                <p class="place__winter-rate-money p-not-mt">$3600</p>
+                                <div class="place__winter-rate-star">
+                                    <i class="fa-solid fa-star"></i>7.3
+                                </div>
+                                <div class="place__winter-comment">Superb</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="place__winter-destination swiper-slide">
+                        <div class="pic__sce">
+                            <a href="" class="pic__link">
+                                <img src="img/pic2.jpg" alt="" class="pic">
+                            </a>
+                            <div class="cal__people-ski">
+                                <div class="cal">
+                                    <i class="mt-8 fa-solid fa-calendar"></i>
+                                    <p class="p-not-mt cal-num">1</p>
+                                </div>
+                                <div class="people">
+                                    <i class="mt-8 fa-solid fa-user"></i>
+                                    <p class="p-not-mt people-num">13+</p>
+                                </div>
+                                <a href="" class="ski">
+                                    <i class="mt-8 fa-solid fa-location-dot"></i>
+                                    <p class="p-not-mt ski-text">Skiing</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="place__winter-text">
+                            <a class="place__winter-heading-link" href="">
+                                <h1 class="place__winter-heading">Winter Action</h1>
+                            </a>
+                            <p class="place__winter-desc p-not-mt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <div class="place__winter-rate">
+                                <p class="place__winter-rate-money p-not-mt">$960</p>
+                                <div class="place__winter-rate-star">
+                                    <i class="fa-solid fa-star-half-stroke"></i>6.0
+                                </div>
+                                <div class="place__winter-comment">Good</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="place__winter-destination swiper-slide">
+                        <div class="pic__sce">
+                            <a href="" class="pic__link">
+                                <img src="img/pic3.jpg" alt="" class="pic">
+                            </a>
+                            <div class="cal__people-ski">
+                                <div class="cal">
+                                    <i class="mt-8 fa-solid fa-calendar"></i>
+                                    <p class="p-not-mt cal-num">1</p>
+                                </div>
+                                <div class="people">
+                                    <i class="mt-8 fa-solid fa-user"></i>
+                                    <p class="p-not-mt people-num">13+</p>
+                                </div>
+                                <a href="" class="ski">
+                                    <i class="mt-8 fa-solid fa-location-dot"></i>
+                                    <p class="p-not-mt ski-text">Skiing</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="place__winter-text">
+                            <a class="place__winter-heading-link" href="">
+                                <h1 class="place__winter-heading">Magic Of Italy</h1>
+                            </a>
+                            <p class="place__winter-desc p-not-mt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <div class="place__winter-rate">
+                                <p class="place__winter-rate-money p-not-mt">$1000</p>
+                                <div class="place__winter-rate-star">
+                                    <i class="fa-solid fa-star-half-stroke"></i>6.7
+                                </div>
+                                <div class="place__winter-comment">Good</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="place__winter-destination swiper-slide">
+                        <div class="pic__sce">
+                            <a href="" class="pic__link">
+                                <img src="img/pic4.jpg" alt="" class="pic">
+                            </a>
+                            <div class="cal__people-ski">
+                                <div class="cal">
+                                    <i class="mt-8 fa-solid fa-calendar"></i>
+                                    <p class="p-not-mt cal-num">1</p>
+                                </div>
+                                <div class="people">
+                                    <i class="mt-8 fa-solid fa-user"></i>
+                                    <p class="p-not-mt people-num">13+</p>
+                                </div>
+                                <a href="" class="ski">
+                                    <i class="mt-8 fa-solid fa-location-dot"></i>
+                                    <p class="p-not-mt ski-text">Skiing</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="place__winter-text">
+                            <a class="place__winter-heading-link" href="">
+                                <h1 class="place__winter-heading">Skiing In Alps</h1>
+                            </a>
+                            <p class="place__winter-desc p-not-mt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <div class="place__winter-rate">
+                                <p class="place__winter-rate-money p-not-mt">$450</p>
+                                <div class="place__winter-rate-star">
+                                    <i class="fa-solid fa-star-half-stroke"></i>6.0
+                                </div>
+                                <div class="place__winter-comment">Good</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="place__winter-destination swiper-slide">
+                        <div class="pic__sce">
+                            <a href="" class="pic__link">
+                                <img src="img/pic5.jpg" alt="" class="pic">
+                            </a>
+                            <div class="cal__people-ski">
+                                <div class="cal">
+                                    <i class="mt-8 fa-solid fa-calendar"></i>
+                                    <p class="p-not-mt cal-num">1</p>
+                                </div>
+                                <div class="people">
+                                    <i class="mt-8 fa-solid fa-user"></i>
+                                    <p class="p-not-mt people-num">13+</p>
+                                </div>
+                                <a href="" class="ski">
+                                    <i class="mt-8 fa-solid fa-location-dot"></i>
+                                    <p class="p-not-mt ski-text">Skiing</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="place__winter-text">
+                            <a class="place__winter-heading-link" href="">
+                                <h1 class="place__winter-heading">Kids Ski School</h1>
+                            </a>
+                            <p class="place__winter-desc p-not-mt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                            <div class="place__winter-rate">
+                                <p class="place__winter-rate-money p-not-mt">$1600</p>
+                                <div class="place__winter-rate-star">
+                                    <i class="fa-solid fa-star-half-stroke"></i>6.7
+                                </div>
+                                <div class="place__winter-comment">Good</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="place__winter-text">
-                <a class="place__winter-heading-link" href="">
-                    <h1 class="place__winter-heading">Active Winter</h1>
-                </a>
-                <p class="place__winter-desc p-not-mt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <div class="place__winter-rate">
-                    <p class="place__winter-rate-money p-not-mt">$3600</p>
-                    <div class="place__winter-rate-star">
-                        <i class="fa-solid fa-star"></i>7.3
-                    </div>
-                    <div class="place__winter-comment">Superb</div>
-                </div>
-            </div>
+            <div class="place__winter-swiper-pagination swiper-pagination"></div>
         </div>
-        <div class="place__winter-col col-five m-6 s-12 pd-20">
-            <div class="pic__sce">
-                <a href="" class="pic__link">
-                    <img src="img/pic7.jpg" alt="" class="pic">
-                </a>
-                <div class="cal__people-ski">
-                    <div class="cal">
-                        <i class="mt-8 fa-solid fa-calendar"></i>
-                        <p class="p-not-mt cal-num">1</p>
-                    </div>
-                    <div class="people">
-                        <i class="mt-8 fa-solid fa-user"></i>
-                        <p class="p-not-mt people-num">13+</p>
-                    </div>
-                    <a href="" class="ski">
-                        <i class="mt-8 fa-solid fa-location-dot"></i>
-                        <p class="p-not-mt ski-text">Skiing</p>
-                    </a>
-                </div>
-            </div>
-            <div class="place__winter-text">
-                <a class="place__winter-heading-link" href="">
-                    <h1 class="place__winter-heading">Seoul Winter</h1>
-                </a>
-                <p class="place__winter-desc p-not-mt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <div class="place__winter-rate">
-                    <p class="place__winter-rate-money p-not-mt">$3600</p>
-                    <div class="place__winter-rate-star">
-                        <i class="fa-solid fa-star"></i>7.3
-                    </div>
-                    <div class="place__winter-comment">Superb</div>
-                </div>
-            </div>
-        </div>
-        <div class="place__winter-col col-five m-6 s-12 pd-20">
-            <div class="pic__sce">
-                <a href="" class="pic__link">
-                    <img src="img/pic8.jpg" alt="" class="pic">
-                </a>
-                <div class="cal__people-ski">
-                    <div class="cal">
-                        <i class="mt-8 fa-solid fa-calendar"></i>
-                        <p class="p-not-mt cal-num">1</p>
-                    </div>
-                    <div class="people">
-                        <i class="mt-8 fa-solid fa-user"></i>
-                        <p class="p-not-mt people-num">13+</p>
-                    </div>
-                    <a href="" class="ski">
-                        <i class="mt-8 fa-solid fa-location-dot"></i>
-                        <p class="p-not-mt ski-text">Skiing</p>
-                    </a>
-                </div>
-            </div>
-            <div class="place__winter-text">
-                <a class="place__winter-heading-link" href="">
-                    <h1 class="place__winter-heading">Tokyo Scene</h1>
-                </a>
-                <p class="place__winter-desc p-not-mt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <div class="place__winter-rate">
-                    <p class="place__winter-rate-money p-not-mt">$3600</p>
-                    <div class="place__winter-rate-star">
-                        <i class="fa-solid fa-star"></i>7.3
-                    </div>
-                    <div class="place__winter-comment">Superb</div>
-                </div>
-            </div>
-        </div>
-        <div class="place__winter-col col-five m-6 s-12 pd-20">
-            <div class="pic__sce">
-                <a href="" class="pic__link">
-                    <img src="img/pic6.jpg" alt="" class="pic">
-                </a>
-                <div class="cal__people-ski">
-                    <div class="cal">
-                        <i class="mt-8 fa-solid fa-calendar"></i>
-                        <p class="p-not-mt cal-num">1</p>
-                    </div>
-                    <div class="people">
-                        <i class="mt-8 fa-solid fa-user"></i>
-                        <p class="p-not-mt people-num">13+</p>
-                    </div>
-                    <a href="" class="ski">
-                        <i class="mt-8 fa-solid fa-location-dot"></i>
-                        <p class="p-not-mt ski-text">Skiing</p>
-                    </a>
-                </div>
-            </div>
-            <div class="place__winter-text">
-                <a class="place__winter-heading-link" href="">
-                    <h1 class="place__winter-heading">Snow Surfing</h1>
-                </a>
-                <p class="place__winter-desc p-not-mt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <div class="place__winter-rate">
-                    <p class="place__winter-rate-money p-not-mt">$3600</p>
-                    <div class="place__winter-rate-star">
-                        <i class="fa-solid fa-star"></i>7.3
-                    </div>
-                    <div class="place__winter-comment">Superb</div>
-                </div>
-            </div>
-        </div>
-        <div class="place__winter-col col-five m-6 s-12 pd-20">
-            <div class="pic__sce">
-                <a href="" class="pic__link">
-                    <img src="img/pic2.jpg" alt="" class="pic">
-                </a>
-                <div class="cal__people-ski">
-                    <div class="cal">
-                        <i class="mt-8 fa-solid fa-calendar"></i>
-                        <p class="p-not-mt cal-num">1</p>
-                    </div>
-                    <div class="people">
-                        <i class="mt-8 fa-solid fa-user"></i>
-                        <p class="p-not-mt people-num">13+</p>
-                    </div>
-                    <a href="" class="ski">
-                        <i class="mt-8 fa-solid fa-location-dot"></i>
-                        <p class="p-not-mt ski-text">Skiing</p>
-                    </a>
-                </div>
-            </div>
-            <div class="place__winter-text">
-                <a class="place__winter-heading-link" href="">
-                    <h1 class="place__winter-heading">Winter Action</h1>
-                </a>
-                <p class="place__winter-desc p-not-mt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <div class="place__winter-rate">
-                    <p class="place__winter-rate-money p-not-mt">$960</p>
-                    <div class="place__winter-rate-star">
-                        <i class="fa-solid fa-star-half-stroke"></i>6.0
-                    </div>
-                    <div class="place__winter-comment">Good</div>
-                </div>
-            </div>
-        </div>
-        <div class="place__winter-col col-five m-6 s-12 pd-20">
-            <div class="pic__sce">
-                <a href="" class="pic__link">
-                    <img src="img/pic3.jpg" alt="" class="pic">
-                </a>
-                <div class="cal__people-ski">
-                    <div class="cal">
-                        <i class="mt-8 fa-solid fa-calendar"></i>
-                        <p class="p-not-mt cal-num">1</p>
-                    </div>
-                    <div class="people">
-                        <i class="mt-8 fa-solid fa-user"></i>
-                        <p class="p-not-mt people-num">13+</p>
-                    </div>
-                    <a href="" class="ski">
-                        <i class="mt-8 fa-solid fa-location-dot"></i>
-                        <p class="p-not-mt ski-text">Skiing</p>
-                    </a>
-                </div>
-            </div>
-            <div class="place__winter-text">
-                <a class="place__winter-heading-link" href="">
-                    <h1 class="place__winter-heading">Magic Of Italy</h1>
-                </a>
-                <p class="place__winter-desc p-not-mt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <div class="place__winter-rate">
-                    <p class="place__winter-rate-money p-not-mt">$1000</p>
-                    <div class="place__winter-rate-star">
-                        <i class="fa-solid fa-star-half-stroke"></i>6.7
-                    </div>
-                    <div class="place__winter-comment">Good</div>
-                </div>
-            </div>
-        </div>
-        <div class="place__winter-col col-five m-6 s-12 pd-20">
-            <div class="pic__sce">
-                <a href="" class="pic__link">
-                    <img src="img/pic4.jpg" alt="" class="pic">
-                </a>
-                <div class="cal__people-ski">
-                    <div class="cal">
-                        <i class="mt-8 fa-solid fa-calendar"></i>
-                        <p class="p-not-mt cal-num">1</p>
-                    </div>
-                    <div class="people">
-                        <i class="mt-8 fa-solid fa-user"></i>
-                        <p class="p-not-mt people-num">13+</p>
-                    </div>
-                    <a href="" class="ski">
-                        <i class="mt-8 fa-solid fa-location-dot"></i>
-                        <p class="p-not-mt ski-text">Skiing</p>
-                    </a>
-                </div>
-            </div>
-            <div class="place__winter-text">
-                <a class="place__winter-heading-link" href="">
-                    <h1 class="place__winter-heading">Skiing In Alps</h1>
-                </a>
-                <p class="place__winter-desc p-not-mt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <div class="place__winter-rate">
-                    <p class="place__winter-rate-money p-not-mt">$450</p>
-                    <div class="place__winter-rate-star">
-                        <i class="fa-solid fa-star-half-stroke"></i>6.0
-                    </div>
-                    <div class="place__winter-comment">Good</div>
-                </div>
-            </div>
-        </div>
-        <div class="place__winter-col col-five m-6 s-12 pd-20">
-            <div class="pic__sce">
-                <a href="" class="pic__link">
-                    <img src="img/pic5.jpg" alt="" class="pic">
-                </a>
-                <div class="cal__people-ski">
-                    <div class="cal">
-                        <i class="mt-8 fa-solid fa-calendar"></i>
-                        <p class="p-not-mt cal-num">1</p>
-                    </div>
-                    <div class="people">
-                        <i class="mt-8 fa-solid fa-user"></i>
-                        <p class="p-not-mt people-num">13+</p>
-                    </div>
-                    <a href="" class="ski">
-                        <i class="mt-8 fa-solid fa-location-dot"></i>
-                        <p class="p-not-mt ski-text">Skiing</p>
-                    </a>
-                </div>
-            </div>
-            <div class="place__winter-text">
-                <a class="place__winter-heading-link" href="">
-                    <h1 class="place__winter-heading">Kids Ski School</h1>
-                </a>
-                <p class="place__winter-desc p-not-mt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                <div class="place__winter-rate">
-                    <p class="place__winter-rate-money p-not-mt">$1600</p>
-                    <div class="place__winter-rate-star">
-                        <i class="fa-solid fa-star-half-stroke"></i>6.7
-                    </div>
-                    <div class="place__winter-comment">Good</div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="dot__container">
-        <label number="1" for="check__winter-1" class="dot__container-icon dot-solid">
-
-        </label>
-        <label number="2" for="check__winter-2" class="dot__container-icon dot-dash">
-            
-        </label>
-        <label number="3" for="check__winter-3" class="dot__container-icon dot-dash">
-            
-        </label>
-        <label number="4" for="check__winter-4" class="dot__container-icon dot-dash">
-            
-        </label>
-        <label number="5" for="check__winter-5" class="dot__container-icon dot-dash">
-            
-        </label>
-        <label number="6" for="check__winter-6" class="dot__container-icon dot-dash">
-            
-        </label>
-        <label number="7" for="check__winter-7" class="dot__container-icon dot-dash">
-            
-        </label>
-        <label number="8" for="check__winter-8" class="dot__container-icon dot-dash">
-            
-        </label>
     </div>
 
     <div class="body">
@@ -934,182 +1015,163 @@
                 </div>               
             </div>
             <div class="body__part-user-container" data-aos="fade-up">
-                <!-- Radio check để chạy slide body user -->
-                <input type="radio" checked name="check__body-user" id="check__body-user-1" class="check__body-user-class">
-                <input type="radio" name="check__body-user" id="check__body-user-2" class="check__body-user-class">
-                <input type="radio" name="check__body-user" id="check__body-user-3" class="check__body-user-class">
-                <input type="radio" name="check__body-user" id="check__body-user-4" class="check__body-user-class">
-                <input type="radio" name="check__body-user" id="check__body-user-5" class="check__body-user-class">
-                <input type="radio" name="check__body-user" id="check__body-user-6" class="check__body-user-class">
-                <input type="radio" name="check__body-user" id="check__body-user-7" class="check__body-user-class">
-                <input type="radio" name="check__body-user" id="check__body-user-8" class="check__body-user-class">
-                <input type="radio" name="check__body-user" id="check__body-user-9" class="check__body-user-class">
-
-                <div class="body__part-user-block col-third m-6 s-12">
-                    <div class="body__part-user">
-                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-7.png" alt="" class="body__part-user-img">
-                        <div class="body__part-user-review">
-                            <a class="body__part-user-place" href="">Holland Canals</a>
-                            <div class="body__part-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
+                <div class="body__part-user-wrapper swiper-wrapper">
+                    <div class="body__part-user-block swiper-slide">
+                        <div class="body__part-user">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-7.png" alt="" class="body__part-user-img">
+                            <div class="body__part-user-review">
+                                <a class="body__part-user-place" href="">Holland Canals</a>
+                                <div class="body__part-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="body__part-comment">Sa etor aviues lmpedlt tes, vof ef nihc agem qupaios. Ai apvy </p>
+                                <p class="body__part-user-name">Ema Cooper</p>
                             </div>
-                            <p class="body__part-comment">Sa etor aviues lmpedlt tes, vof ef nihc agem qupaios. Ai apvy </p>
-                            <p class="body__part-user-name">Ema Cooper</p>
                         </div>
                     </div>
-                </div>
-                <div class="body__part-user-block col-third m-6 s-12">
-                    <div class="body__part-user">
-                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-4.png" alt="" class="body__part-user-img">
-                        <div class="body__part-user-review">
-                            <a class="body__part-user-place" href="">Taipei</a>
-                            <div class="body__part-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
+                    <div class="body__part-user-block swiper-slide">
+                        <div class="body__part-user">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-4.png" alt="" class="body__part-user-img">
+                            <div class="body__part-user-review">
+                                <a class="body__part-user-place" href="">Taipei</a>
+                                <div class="body__part-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="body__part-comment">Pe utor aviuas lwpadit tas, vut et nihc egam yubulas. Si euvy</p>
+                                <p class="body__part-user-name">Susan Day</p>
                             </div>
-                            <p class="body__part-comment">Pe utor aviuas lwpadit tas, vut et nihc egam yubulas. Si euvy</p>
-                            <p class="body__part-user-name">Susan Day</p>
                         </div>
                     </div>
-                </div>
-                <div class="body__part-user-block col-third m-6 s-12">
-                    <div class="body__part-user">
-                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-3.png" alt="" class="body__part-user-img">
-                        <div class="body__part-user-review">
-                            <a class="body__part-user-place" href="">Kaohsiung</a>
-                            <div class="body__part-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
+                    <div class="body__part-user-block swiper-slide">
+                        <div class="body__part-user">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-3.png" alt="" class="body__part-user-img">
+                            <div class="body__part-user-review">
+                                <a class="body__part-user-place" href="">Kaohsiung</a>
+                                <div class="body__part-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="body__part-comment">Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy</p>
+                                <p class="body__part-user-name">Roger Brooks</p>
                             </div>
-                            <p class="body__part-comment">Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy</p>
-                            <p class="body__part-user-name">Roger Brooks</p>
                         </div>
                     </div>
-                </div>
-                <div class="body__part-user-block col-third m-6 s-12">
-                    <div class="body__part-user">
-                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-2.png" alt="" class="body__part-user-img">
-                        <div class="body__part-user-review">
-                            <a class="body__part-user-place" href="">Barcelona</a>
-                            <div class="body__part-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
+                    <div class="body__part-user-block swiper-slide">
+                        <div class="body__part-user">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-2.png" alt="" class="body__part-user-img">
+                            <div class="body__part-user-review">
+                                <a class="body__part-user-place" href="">Barcelona</a>
+                                <div class="body__part-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="body__part-comment">Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy</p>
+                                <p class="body__part-user-name">James Fisher</p>
                             </div>
-                            <p class="body__part-comment">Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy</p>
-                            <p class="body__part-user-name">James Fisher</p>
                         </div>
                     </div>
-                </div>
-                <div class="body__part-user-block col-third m-6 s-12">
-                    <div class="body__part-user">
-                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-6.png" alt="" class="body__part-user-img">
-                        <div class="body__part-user-review">
-                            <a class="body__part-user-place" href="">Madrid</a>
-                            <div class="body__part-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
+                    <div class="body__part-user-block swiper-slide">
+                        <div class="body__part-user">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-6.png" alt="" class="body__part-user-img">
+                            <div class="body__part-user-review">
+                                <a class="body__part-user-place" href="">Madrid</a>
+                                <div class="body__part-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="body__part-comment">Pe ator eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy</p>
+                                <p class="body__part-user-name">Sam Smith</p>
                             </div>
-                            <p class="body__part-comment">Pe ator eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy</p>
-                            <p class="body__part-user-name">Sam Smith</p>
                         </div>
                     </div>
-                </div>
-                <div class="body__part-user-block col-third m-6 s-12">
-                    <div class="body__part-user">
-                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-5.png" alt="" class="body__part-user-img">
-                        <div class="body__part-user-review">
-                            <a class="body__part-user-place" href="">Tarragona</a>
-                            <div class="body__part-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
+                    <div class="body__part-user-block swiper-slide">
+                        <div class="body__part-user">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-5.png" alt="" class="body__part-user-img">
+                            <div class="body__part-user-review">
+                                <a class="body__part-user-place" href="">Tarragona</a>
+                                <div class="body__part-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="body__part-comment">Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy</p>
+                                <p class="body__part-user-name">Carl Moore</p>
                             </div>
-                            <p class="body__part-comment">Fa etor eviuas lwqedit tas, vut et nihc egam yubulas. Ei euvy</p>
-                            <p class="body__part-user-name">Carl Moore</p>
+                        </div>
+                    </div>          
+                    <div class="body__part-user-block swiper-slide">
+                        <div class="body__part-user">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-1.png" alt="" class="body__part-user-img">
+                            <div class="body__part-user-review">
+                                <a class="body__part-user-place" href="">Beautiful Holland</a>
+                                <div class="body__part-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="body__part-comment">Fo etor uvluoc iwpodit res, vet of nihc egam yubulas. Al uavq</p>
+                                <p class="body__part-user-name">Carol Silva</p>
+                            </div>
                         </div>
                     </div>
-                </div>          
-                <div class="body__part-user-block col-third m-6 s-12">
-                    <div class="body__part-user">
-                        <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/user-img-1.png" alt="" class="body__part-user-img">
-                        <div class="body__part-user-review">
-                            <a class="body__part-user-place" href="">Beautiful Holland</a>
-                            <div class="body__part-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
+                    <div class="body__part-user-block swiper-slide">
+                        <div class="body__part-user">
+                            <img src="img/skier.jpg" alt="" class="body__part-user-img">
+                            <div class="body__part-user-review">
+                                <a class="body__part-user-place" href="">Marcel Hirscher</a>
+                                <div class="body__part-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="body__part-comment">Te utar uvlues iwqodit tas, vut et nihc egam yubulas. Ei euvy</p>
+                                <p class="body__part-user-name">Carl Moore</p>
                             </div>
-                            <p class="body__part-comment">Fo etor uvluoc iwpodit res, vet of nihc egam yubulas. Al uavq</p>
-                            <p class="body__part-user-name">Carol Silva</p>
                         </div>
                     </div>
-                </div>
-                <div class="body__part-user-block col-third m-6 s-12">
-                    <div class="body__part-user">
-                        <img src="img/skier.jpg" alt="" class="body__part-user-img">
-                        <div class="body__part-user-review">
-                            <a class="body__part-user-place" href="">Marcel Hirscher</a>
-                            <div class="body__part-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
+                    <div class="body__part-user-block swiper-slide">
+                        <div class="body__part-user">
+                            <img src="img/skier2.jpg" alt="" class="body__part-user-img">
+                            <div class="body__part-user-review">
+                                <a class="body__part-user-place" href="">Mikaela Shiffrin</a>
+                                <div class="body__part-rate">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <p class="body__part-comment">Fo etor uvluoc iwpodit res, vet of nihc egam yubulas. Al uavq</p>
+                                <p class="body__part-user-name">Carol Silva</p>
                             </div>
-                            <p class="body__part-comment">Te utar uvlues iwqodit tas, vut et nihc egam yubulas. Ei euvy</p>
-                            <p class="body__part-user-name">Carl Moore</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="body__part-user-block col-third m-6 s-12">
-                    <div class="body__part-user">
-                        <img src="img/skier2.jpg" alt="" class="body__part-user-img">
-                        <div class="body__part-user-review">
-                            <a class="body__part-user-place" href="">Mikaela Shiffrin</a>
-                            <div class="body__part-rate">
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                                <i class="fa-solid fa-star"></i>
-                            </div>
-                            <p class="body__part-comment">Fo etor uvluoc iwpodit res, vet of nihc egam yubulas. Al uavq</p>
-                            <p class="body__part-user-name">Carol Silva</p>
                         </div>
                     </div>
                 </div>
             </div> 
-            <div class="dot__container-three">
-                <label number="1"  for="check__body-user-1" class="dot__container-three-icon dot-solid"></label>
-                <label number="2"  for="check__body-user-2" class="dot__container-three-icon dot-dash"></label>
-                <label number="3"  for="check__body-user-3" class="dot__container-three-icon dot-dash"></label>
-                <label number="4"  for="check__body-user-4" class="dot__container-three-icon dot-dash"></label>
-                <label number="5"  for="check__body-user-5" class="dot__container-three-icon dot-dash"></label>
-                <label number="6"  for="check__body-user-6" class="dot__container-three-icon dot-dash"></label>
-                <label number="7"  for="check__body-user-7" class="dot__container-three-icon dot-dash"></label>
-                <label number="8"  for="check__body-user-8" class="dot__container-three-icon dot-dash"></label>
-                <label number="9"  for="check__body-user-9" class="dot__container-three-icon dot-dash"></label>
-            </div>
+            <div class="body__part-user-pagination swiper-pagination"></div>
         </div>
         <div class="body__part">
             <div class="body__part-contain">
@@ -1119,22 +1181,22 @@
                     <p class="text-color body__part-title-next">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor lorem ipsum.</p>
                 </div>
                 <div class="row body__part-location" data-aos="fade-up">
-                    <div class="body__part-location-place col-four s-12" data-aos="fade-up">
+                    <div class="body__part-location-place col-four s-12" data-aos="fade-right">
                         <img src="img/Restaurants.png" alt="" class="body__part-location-place-img">
                         <h3 class="body__part-location-place-heading">Restaurants</h3>
                         <p class="body__part-location-place-desc text-color">Aenean commodo ligula eget dolor. Lorem ipsum</p>
                     </div>
-                    <div class="body__part-location-place col-four s-12" data-aos="fade-up">
+                    <div class="body__part-location-place col-four s-12" data-aos="fade-right">
                         <img src="img/Sightseeing.png" alt="" class="body__part-location-place-img">
                         <h3 class="body__part-location-place-heading">Sightseeing</h3>
                         <p class="body__part-location-place-desc text-color">Aenean commodo ligula eget dolor. Lorem ipsum</p>
                     </div>
-                    <div class="body__part-location-place col-four s-12" data-aos="fade-up">
+                    <div class="body__part-location-place col-four s-12" data-aos="fade-left">
                         <img src="img/Shops & Boutiques.png" alt="" class="body__part-location-place-img">
                         <h3 class="body__part-location-place-heading">Shops & Boutiques</h3>
                         <p class="body__part-location-place-desc text-color">Aenean commodo ligula eget dolor. Lorem ipsum</p>
                     </div>
-                    <div class="body__part-location-place col-four s-12" data-aos="fade-up">
+                    <div class="body__part-location-place col-four s-12" data-aos="fade-left">
                         <img src="img/Where to Stay.png" alt="" class="body__part-location-place-img">
                         <h3 class="body__part-location-place-heading">Where to Stay</h3>
                         <p class="body__part-location-place-desc text-color">Aenean commodo ligula eget dolor. Lorem ipsum</p>
@@ -1143,96 +1205,96 @@
             </div>
         </div>
         <div class="body__slider" data-aos="fade-up">
-            <div class="body__slider-contain-img row">
-                <input type="radio" checked name="check__body-player" id="check__body-player-1" class="check__body-player-class">
-                <input type="radio" name="check__body-player" id="check__body-player-2" class="check__body-player-class">
-                <input type="radio" name="check__body-player" id="check__body-player-3" class="check__body-player-class">
-                <input type="radio" name="check__body-player" id="check__body-player-4" class="check__body-player-class">
-
-                <div class="body__slider-img-player col-four m-6 s-12">
-                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-6-1.jpg" alt="" class="body__slider-img">
-                    <div class="body__slider-player">
-                        <div class="body__slider-player-name">Joe Avery</div>
-                        <div class="body__slider-player-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem lorem</div>
-                        <div class="body__slider-player-icon">
-                            <a href="" class="body__slider-player-icon-link">
-                                <i class="body__slider-player-icon-item fa-brands fa-twitter"></i>
-                            </a>
-                            <a href="" class="body__slider-player-icon-link">
-                                <i class="body__slider-player-icon-item fa-brands fa-pinterest-p"></i>
-                            </a>
-                            <a href="" class="body__slider-player-icon-link">
-                                <i class="body__slider-player-icon-item fa-brands fa-facebook"></i>
-                            </a>
-                            <a href="" class="body__slider-player-icon-link">
-                                <i class="body__slider-player-icon-item fa-brands fa-instagram"></i>
-                            </a>
+            <div class="body__slider-contain-img">
+                <div class="body__slider-container-img-player">
+                    <div class="body__slider-img-wrapper swiper-wrapper">
+                        <div class="body__slider-img-player swiper-slide">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-6-1.jpg" alt="" class="body__slider-img">
+                            <div class="body__slider-player">
+                                <div class="body__slider-player-name">Joe Avery</div>
+                                <div class="body__slider-player-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem lorem</div>
+                                <div class="body__slider-player-icon">
+                                    <a href="" class="body__slider-player-icon-link">
+                                        <i class="body__slider-player-icon-item fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a href="" class="body__slider-player-icon-link">
+                                        <i class="body__slider-player-icon-item fa-brands fa-pinterest-p"></i>
+                                    </a>
+                                    <a href="" class="body__slider-player-icon-link">
+                                        <i class="body__slider-player-icon-item fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="" class="body__slider-player-icon-link">
+                                        <i class="body__slider-player-icon-item fa-brands fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="body__slider-img-player col-four m-6 s-12">
-                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-7-1.jpg" alt="" class="body__slider-img">
-                    <div class="body__slider-player">
-                        <div class="body__slider-player-name">Bella Larson</div>
-                        <div class="body__slider-player-desc">Deq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</div>
-                        <div class="body__slider-player-icon">
-                            <a href="" class="body__slider-player-icon-link">
-                                <i class="body__slider-player-icon-item fa-brands fa-twitter"></i>
-                            </a>
-                            <a href="" class="body__slider-player-icon-link">
-                                <i class="body__slider-player-icon-item fa-brands fa-pinterest-p"></i>
-                            </a>
-                            <a href="" class="body__slider-player-icon-link">
-                                <i class="body__slider-player-icon-item fa-brands fa-facebook"></i>
-                            </a>
-                            <a href="" class="body__slider-player-icon-link">
-                                <i class="body__slider-player-icon-item fa-brands fa-instagram"></i>
-                            </a>
+                        <div class="body__slider-img-player swiper-slide">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-7-1.jpg" alt="" class="body__slider-img">
+                            <div class="body__slider-player">
+                                <div class="body__slider-player-name">Bella Larson</div>
+                                <div class="body__slider-player-desc">Deq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</div>
+                                <div class="body__slider-player-icon">
+                                    <a href="" class="body__slider-player-icon-link">
+                                        <i class="body__slider-player-icon-item fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a href="" class="body__slider-player-icon-link">
+                                        <i class="body__slider-player-icon-item fa-brands fa-pinterest-p"></i>
+                                    </a>
+                                    <a href="" class="body__slider-player-icon-link">
+                                        <i class="body__slider-player-icon-item fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="" class="body__slider-player-icon-link">
+                                        <i class="body__slider-player-icon-item fa-brands fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="body__slider-img-player col-four m-6 s-12">
-                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-8-1.jpg" alt="" class="body__slider-img">
-                    <div class="body__slider-player">
-                        <div class="body__slider-player-name">Jack Burton</div>
-                        <div class="body__slider-player-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem lorem</div>
-                        <div class="body__slider-player-icon">
-                            <a href="" class="body__slider-player-icon-link">
-                                <i class="body__slider-player-icon-item fa-brands fa-twitter"></i>
-                            </a>
-                            <a href="" class="body__slider-player-icon-link">
-                                <i class="body__slider-player-icon-item fa-brands fa-pinterest-p"></i>
-                            </a>
-                            <a href="" class="body__slider-player-icon-link">
-                                <i class="body__slider-player-icon-item fa-brands fa-facebook"></i>
-                            </a>
-                            <a href="" class="body__slider-player-icon-link">
-                                <i class="body__slider-player-icon-item fa-brands fa-instagram"></i>
-                            </a>
+                        <div class="body__slider-img-player swiper-slide">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-8-1.jpg" alt="" class="body__slider-img">
+                            <div class="body__slider-player">
+                                <div class="body__slider-player-name">Jack Burton</div>
+                                <div class="body__slider-player-desc">Sed ut perspiciatis unde omnis iste natus error sit voluptatem lorem</div>
+                                <div class="body__slider-player-icon">
+                                    <a href="" class="body__slider-player-icon-link">
+                                        <i class="body__slider-player-icon-item fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a href="" class="body__slider-player-icon-link">
+                                        <i class="body__slider-player-icon-item fa-brands fa-pinterest-p"></i>
+                                    </a>
+                                    <a href="" class="body__slider-player-icon-link">
+                                        <i class="body__slider-player-icon-item fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="" class="body__slider-player-icon-link">
+                                        <i class="body__slider-player-icon-item fa-brands fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="body__slider-img-player col-four m-6 s-12">
-                    <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-9.jpg" alt="" class="body__slider-img">
-                    <div class="body__slider-player">
-                        <div class="body__slider-player-name">Grace West</div>
-                        <div class="body__slider-player-desc">Peq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</div>
-                        <div class="body__slider-player-icon">
-                            <a href="" class="body__slider-player-icon-link">
-                                <i class="body__slider-player-icon-item fa-brands fa-twitter"></i>
-                            </a>
-                            <a href="" class="body__slider-player-icon-link">
-                                <i class="body__slider-player-icon-item fa-brands fa-pinterest-p"></i>
-                            </a>
-                            <a href="" class="body__slider-player-icon-link">
-                                <i class="body__slider-player-icon-item fa-brands fa-facebook"></i>
-                            </a>
-                            <a href="" class="body__slider-player-icon-link">
-                                <i class="body__slider-player-icon-item fa-brands fa-instagram"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>                     
+                        <div class="body__slider-img-player swiper-slide">
+                            <img src="https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/our-team-img-9.jpg" alt="" class="body__slider-img">
+                            <div class="body__slider-player">
+                                <div class="body__slider-player-name">Grace West</div>
+                                <div class="body__slider-player-desc">Peq des sut perspi ciatis ynde oninis iste matus error sit bolu ptato dolor</div>
+                                <div class="body__slider-player-icon">
+                                    <a href="" class="body__slider-player-icon-link">
+                                        <i class="body__slider-player-icon-item fa-brands fa-twitter"></i>
+                                    </a>
+                                    <a href="" class="body__slider-player-icon-link">
+                                        <i class="body__slider-player-icon-item fa-brands fa-pinterest-p"></i>
+                                    </a>
+                                    <a href="" class="body__slider-player-icon-link">
+                                        <i class="body__slider-player-icon-item fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="" class="body__slider-player-icon-link">
+                                        <i class="body__slider-player-icon-item fa-brands fa-instagram"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div> 
+                </div>      
+                <div class="body__slider-player-pagination swiper-pagination"></div>     
             </div>
             <div class="body__slider-character">
                 <div class="body__part-contain body__slider-achieve">
@@ -1256,19 +1318,19 @@
             </div>
         </div>
         <div class="body__part-contain">
-            <div class="body__part-title" data-aos="fade-up">
+            <div class="body__part-title">
                 <h2 class="body__part-title-small body__part-title-up p-not-mt">Choose Your</h2>
                 <h1 class="body__part-title-big body__part-title-down p-not-mt ">Winter Resort</h1>
                 <p class="text-color body__part-title-next">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor lorem ipsum.</p>
             </div>
-            <div class="body__part-balls" data-aos="fade-up">
-                <a class="body__part-balls-ball col-third m-6 s-12" href="" data-aos="fade-up">
+            <div class="body__part-balls">
+                <a class="body__part-balls-ball col-third m-6 s-12" href="">
                     <div class="body__part-ball">
                         <img src="img/Slovenia.jpg" alt="" class="body__part-ball-img">
                         <div class="body__part-ball-name">Slovenia</div>
                     </div>
                 </a>                
-                <a class="body__part-balls-ball col-third m-6 s-12" href="" data-aos="fade-up">
+                <a class="body__part-balls-ball col-third m-6 s-12" href="">
                     <div class="body__part-ball">
                         <img src="img/France.jpg" alt="" class="body__part-ball-img">
                         <div class="body__part-ball-name">France</div>
@@ -1277,7 +1339,7 @@
                         </div>
                     </div>
                 </a>
-                <a class="body__part-balls-ball col-third m-6 s-12" href="" data-aos="fade-up">
+                <a class="body__part-balls-ball col-third m-6 s-12" href="">
                     <div class="body__part-ball">
                         <img src="img/Switzerland.jpg" alt="" class="body__part-ball-img">
                         <div class="body__part-ball-name">Switzerland</div>
@@ -1402,13 +1464,7 @@
         </div>
     </div>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init({
-        offset: 150,
-        duration: 500,
-        easing: 'ease',
-      });
-    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
