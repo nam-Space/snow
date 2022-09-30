@@ -139,12 +139,12 @@ function handleStart() {
             footer.classList.add('hide-auth-connect');
         }
 
-        // Ngăn chặn hành vi mặc định của thẻ submit (button)
-        btnSubmitLogin.onclick = function(e) {
+        // Ngăn chặn hành vi mặc định của form
+        formLogin.onsubmit = function(e) {
             e.preventDefault()
         }
 
-        btnSubmitRegister.onclick = function(e) {
+        formRegister.onsubmit = function(e) {
             e.preventDefault()
         }
     }
