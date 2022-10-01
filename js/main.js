@@ -2,11 +2,12 @@ function handleStart() {
     const $ = document.querySelector.bind(document)
     const $$ = document.querySelectorAll.bind(document)
 
-    const body = document.body;
+    const body = document.body
     const bar = $('.header__res-bar')
     const checkNav = $('#modal-res-header')
-    const headerThreeObject = $('.header__res-container');
-    const navContainer = $('.header__nav-list');
+    const headerThreeObject = $('.header__res-container')
+    const navContainer = $('.header__nav-list')
+    const formFooter = $('.footer__column-form')
 
     // Gán thuộc tính href="#" cho tất cả các thẻ a
     function hreflink() {
@@ -211,6 +212,13 @@ function handleStart() {
         }
     }
 
+    // Đăng nhập / Đăng ký footer
+    function loginFooter() {
+        formFooter.onsubmit = function(e) {
+            e.preventDefault()
+        }
+    }
+
     // Thay đổi kích thước màn hình trình duyệt
     function handleResize() {
         body.onresize = function() {
@@ -324,11 +332,12 @@ function handleStart() {
     }
     
     function start() {
-        hreflink();
+        hreflink()
         navBar()
-        toggleLogin();
-        forSearch();
-        changeSlide();
+        toggleLogin()
+        forSearch()
+        changeSlide()
+        loginFooter()
 
         // Xử lý khi thay đổi màn hình Window
         handleResize()
