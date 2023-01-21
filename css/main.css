@@ -693,6 +693,7 @@
     width: 100%;
     display: block;
     transition: transform linear 0.3s;
+    object-fit: cover;
 }
 
 .pic:hover {
@@ -805,6 +806,15 @@
 }
 
 /* Body */
+.body__part-bg {
+    padding: 101px 0 130px 0;
+    background-image: url("https://setsail.qodeinteractive.com/wp-content/uploads/2018/09/skiing-parallax-1.jpg");
+    background-attachment: fixed;
+    background-repeat: none;
+    background-position: top;
+    background-size: cover;
+}
+
 .body__part-contain {
     width: 100%;
     margin-left: auto;
@@ -1023,6 +1033,7 @@ input[name="check__body-user"] {
     position: relative;
     overflow: hidden;
     transition: all ease 1s;
+    object-fit: cover;
 }
 
 .body__slider-img {
@@ -1132,6 +1143,7 @@ input[name="check__body-user"] {
     border-radius: 50%;
     filter: brightness(70%);
     transition: transform linear 0.4s;
+    object-fit: cover;
 }
 
 .body__part-ball-name {
@@ -1338,6 +1350,7 @@ input[name="check__body-user"] {
     height: 100%;
     display: block;
     transition: transform linear 0.2s;
+    object-fit: cover;
 }
 
 /* The End */
