@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
+
 /* Container */
 .container {
     max-width: 1536px;
@@ -577,7 +579,7 @@
 .slider__text-heading {
     margin: 0;
     font-size: 40px;
-    font-family: Satisfy, cursive;
+    font-family: "Satisfy", cursive;
 }
 
 .slider__text-heading-big1 {
@@ -836,7 +838,7 @@
 }
 
 .body__part-title-up {
-    font-family: Satisfy, cursive;
+    font-family: "Satisfy", cursive;
     color: var(--primary-color);
 }
 
@@ -1153,7 +1155,7 @@ input[name="check__body-user"] {
     transform: translate(-50%, -50%);
     color: var(--white-color);
     font-size: 40px;
-    font-family: Satisfy, cursive;
+    font-family: "Satisfy", cursive;
 }
 
 .body__part-ball-dragonball {
