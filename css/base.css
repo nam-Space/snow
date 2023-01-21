@@ -13,11 +13,11 @@ a {
     color: var(--black-color);
 }
 
-html, body{
+html,
+body {
     scroll-behavior: smooth;
     margin: 0;
     font-family: Poppins, sans-serif;
-
 }
 
 *::selection {
@@ -32,15 +32,17 @@ html, body{
     --text-color: #505050;
 }
 
-.body__part-title-small{
+.body__part-title-small {
     font-size: 33px;
+    font-weight: 500;
 }
 
-.body__part-title-big{
+.body__part-title-big {
     font-size: 65px;
+    font-weight: 600;
 }
 
-.row{
+.row {
     display: flex;
 }
 
@@ -63,31 +65,30 @@ html, body{
     width: 25%;
 }
 
-.col-five{
+.col-five {
     width: 20%;
 }
 
-.pd-20{
+.pd-20 {
     padding: 0 10px;
 }
 
-.mt-8{
+.mt-8 {
     margin-right: 8px;
 }
 
-.p-not-mt{
+.p-not-mt {
     margin: 0;
 }
 
-.white-text{
+.white-text {
     color: var(--white-color);
 }
 
-.text-color{
+.text-color {
     color: var(--text-color);
 }
 
-.white-background{
+.white-background {
     background-color: var(--white-color);
 }
-
