@@ -932,7 +932,7 @@ input[name="check__body-user"] {
 }
 
 .body__part-user-img {
-    object-fit: contain;
+    object-fit: cover;
     margin-right: 21px;
 }
 
