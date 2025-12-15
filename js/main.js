@@ -57,7 +57,7 @@ function handleStart() {
         function subNavBar(elementDiv, elementLi) {
             let number =
                 elementLi.getAttribute("lever")[
-                    elementLi.getAttribute("lever").length - 1
+                elementLi.getAttribute("lever").length - 1
                 ];
 
             number++;
